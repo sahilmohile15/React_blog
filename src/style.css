@@ -1,0 +1,112 @@
+.insidePost{
+    width: 78%;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.postHeader{
+    text-align: center;
+}
+
+.sideBar{
+    background-color: white;
+    width: 20%;
+    text-align: center;
+
+}
+
+.containers{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    
+}
+
+.content{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #4545;
+}
+
+.title{
+    text-align: center;
+    text-decoration: underline;
+    color: darkblue;
+
+}
+
+.description{
+    font-size: 17px;
+    font-weight: 350;
+    padding-left: 20px;
+    display: flex;
+}
+
+.post{
+    width: 97%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.link{
+    padding-left: 800px;
+}
+
+.image{
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-style: double;
+    border: 1px solid red;
+}
+
+.image-content{
+    display: flex;
+}
+
+.pimage{
+    width:300px;
+    max-width: 50%;
+    height: 40;
+    align-content: center;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.pdescription{
+    font-size: 17px;
+    font-weight: 350;
+    padding-left: 20px;
+    display: flex;
+    margin: 15px 0;
+}
+
+.ptitle{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.preview{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    padding: 2%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.footer{
+    position: fixed;
+    margin-bottom: 0px;
+    margin-top: auto;
+}
